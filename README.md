@@ -1,24 +1,13 @@
-# README
+# Micro Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple data exercise, to be used in the Rails console.
 
-Things you may want to cover:
+## Features
+- User model & database, with username, password & email.
+  - Linked to Child Comments & Posts
+- Post model & database
+  - Linked to Child Comments & Parent User
+- Comments model & Database
+  - Linked to Parent User & Post
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+All above models have basic validation for presence & uniqueness where required.
